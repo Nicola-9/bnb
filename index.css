@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after{	
+    padding: 0;
+}
+
+html{
+	font-size: 15px;
+	font-family: 'SF Pro Display', sans-serif;
+}
+
+#title{
+    font-size: 2.5rem;
+}
+
+.paragraph{
+    font-style: oblique;
+    margin-top: -1.5%;
+}
+
+#center-content{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.img{
+    margin-right: 1.5rem;
+    display: inline-block;
+    margin-bottom: .3%;
+}
+
+.img1, .img2{
+    width: 50%;
+    height: calc(100vh - 30rem);
+    margin-left: 0;
+}
+
+.img3{
+    float: right;
+    position: absolute;
+    height: calc(100vh - 9.35rem);
+    width: 47%;
+    top: 0;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+.link{
+    margin-top: 1%;
+}
+
+.link:hover{
+    transform: scale(1.1);
+}
+

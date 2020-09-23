@@ -3,31 +3,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bed&Breakfast</title>
+
+    <style>
+        .paragraph{
+            text-align: center; 
+            vertical-align: middle;
+        }
+
+        div#center-content{
+            text-align: left; 
+            margin-top: 1%; 
+            margin-bottom: 3%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./index.css">
 </head>
     <body>
-        <h1 style="text-align: center;">Bed&Breakfast Non so il nome</h1>
+        <h1 id="title" style="text-align: center;">Bed&Breakfast Non so il nome</h1>
         <br>
-        <p style="text-align: center; vertical-align: middle;">
+        <p class="paragraph">
             Questo bed&breakfast è l'ideale per trascorrere una vacanza rilassati. 
             <br>
             Situato in un posto magnifico!
         </p>
 
-        <div style="text-align: center; margin-top: 3%; margin-bottom: 3%;">
-            <img src="https://cf.bstatic.com/images/hotel/max1024x768/206/206071838.jpg" alt="Immagine stanza"
-            style="width: 20%; height: 20%; margin-right: 3rem;">
+        <div id="center-content">
+            <img class="img img1" src="https://cf.bstatic.com/images/hotel/max1024x768/206/206071838.jpg" alt="Immagine stanza">
 
-            <img src="https://www.italia.it/fileadmin/src/img/cluster_gallery/mare/Sicilia_-Tonnara-di-Scopello.jpg" alt="Immagine stanza"
-                style="width: 20%; height: 20%; margin-right: 3rem;">
+            <img class="img img2" src="https://www.italia.it/fileadmin/src/img/cluster_gallery/mare/Sicilia_-Tonnara-di-Scopello.jpg" alt="Immagine stanza">
 
-            <img src="https://www.dimorando.it/wp-content/uploads/2017/11/arredare-beb-and-breakfast.jpg" alt="Immagine stanza"
-                style="width: 20%; height: 20%; margin-right: 3rem;">
+            <img class="img img3" src="https://www.dimorando.it/wp-content/uploads/2017/11/arredare-beb-and-breakfast.jpg" alt="Immagine stanza">
+
+            <div class="link" style="text-align: center;">
+                <a href="./tariffe.html" style="margin-right: 3%;">Scopri le tariffe</a>
+                <a href="./contacts.html">Contattaci</a>
+            </div>
         </div>
-
-        <div style="text-align: center;">
-            <a href="./tariffe.html" style="margin-right: 3%;">Scopri le tariffe</a>
-            <a href="./contacts.html">Contattaci</a>
-        </div>
-        
     </body>
 </html>
